@@ -10,6 +10,15 @@ dataframe = pd.DataFrame(data)
 print(dataframe)
 print("------------")
 
+print(dataframe["sqr"])
+print("------------")
+
+print(dataframe.iloc[0])
+print("------------")
+
+print(dataframe.loc[1])
+print("------------")
+
 a=[22,21,23]
 b=["sinem","hatice","fatma"]
 for i in range(len(a)):
